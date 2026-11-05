@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InterviewAI | Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css?v=20260929-resume-validation" />
+  </head>
+  <body>
+    <div class="dashboard-shell">
+      <aside class="sidebar">
+        <div class="brand-row">
+          <span class="brand-mark">🧠</span>
+          <span class="brand-name">InterviewAI</span>
+        </div>
+
+        <nav class="nav-menu">
+          <button class="nav-item active" data-page="home">Home</button>
+          <button class="nav-item" data-page="history">History</button>
+          <button class="nav-item" data-page="resume">Resume</button>
+          <button class="nav-item" data-page="profile">Profile</button>
+        </nav>
+
+        <button class="start-btn">🎙 Start mock interview</button>
+
+        <div class="user-card">
+          <div class="avatar">A</div>
+          <div>
+            <strong id="userName">User</strong>
+            <small>Log out</small>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-panel" id="dashboardContent">
+        <header class="topbar">
+          <div>
+            <span class="eyebrow">Your training base</span>
+            <h1 id="welcomeText">Good morning, User 👋</h1>
+          </div>
+          <div class="level-pill">
+            <span id="levelValue">LVL 1</span>
+            <strong id="xpValue">0 XP</strong>
+          </div>
+        </header>
+
+        <section class="xp-box">
+          <div class="xp-row">
+            <div>
+              <strong>Interview readiness</strong>
+              <small id="xpProgressText">0 / 500 XP to level 2</small>
+            </div>
+            <span id="xpPercent">0%</span>
+          </div>
+          <div class="xp-bar"><i></i></div>
+        </section>
+
+        <section class="info-card streak-card">
+          <span>🔥</span>
+          <div>
+            <strong id="streakLabel">0-day streak</strong>
+            <small id="streakMessage">Complete an interview today to start your streak.</small>
+          </div>
+          <b id="streakValue">0</b>
+        </section>
+
+        <section class="mission-card">
+          <div class="mission-icon">⚡</div>
+          <div>
+            <small>DAILY MISSION · +120 XP</small>
+            <strong>Warm-up sprint</strong>
+            <span>Complete one interview round</span>
+          </div>
+          <button id="missionPlay">Play →</button>
+        </section>
+
+        <div class="stats-row">
+          <div class="mini-stat">
+            <strong id="sessionCount">0</strong>
+            <small>SESSIONS</small>
+          </div>
+          <div class="mini-stat">
+            <strong class="success" id="averageScore">0%</strong>
+            <small>AVG SCORE</small>
+          </div>
+          <div class="mini-stat">
+            <strong class="info" id="bestScore">0%</strong>
+            <small>BEST</small>
+          </div>
+        </div>
+
+        <section class="info-card">
+          <h3>Focus areas</h3>
+          <div id="focusAreas"><p class="empty-state">Complete an interview to get personalized focus areas.</p></div>
+        </section>
+
+        <section class="info-card history-card">
+          <h3>Recent sessions</h3>
+          <div id="recentSessions"><p class="empty-state">No interviews completed yet.</p></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="dashboard.js?v=20261013-resume-validation"></script>
+  </body>
+</html>

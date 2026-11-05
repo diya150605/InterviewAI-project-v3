@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">InterviewAI session setup redesign mockup</title>
+  <desc id="desc">A dark, editorial interview setup screen with compact option chips and a session summary sidebar.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1418"/><stop offset="1" stop-color="#101d20"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#baf36b"/><stop offset="1" stop-color="#e2f79b"/></linearGradient>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      .muted { fill: #91a3a1; }
+      .quiet { fill: #6f8280; }
+      .bright { fill: #edf4ee; }
+      .label { fill: #aebdb9; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .chip { fill: #142125; stroke: #293a3d; stroke-width: 1; }
+      .chiptext { fill: #bdcbc6; font-size: 13px; font-weight: 600; }
+      .line { stroke: #253438; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="url(#page)"/>
+  <rect x="0" y="0" width="236" height="960" fill="#0c1519"/>
+  <line x1="236" y1="0" x2="236" y2="960" stroke="#263638"/>
+
+  <rect x="30" y="30" width="34" height="34" rx="9" fill="url(#accent)"/>
+  <path d="M40 42h14M40 48h10M40 54h14" stroke="#17221b" stroke-width="2" stroke-linecap="round"/>
+  <text x="76" y="53" fill="#edf4ee" font-size="17" font-weight="700">InterviewAI</text>
+  <text x="30" y="112" class="quiet" font-size="10" font-weight="700" letter-spacing="1.6">WORKSPACE</text>
+  <rect x="18" y="130" width="200" height="45" rx="8" fill="#172522"/>
+  <rect x="18" y="130" width="3" height="45" rx="2" fill="#baf36b"/>
+  <circle cx="40" cy="152" r="4" fill="#baf36b"/>
+  <text x="56" y="157" fill="#edf4ee" font-size="13" font-weight="650">Practice setup</text>
+  <circle cx="40" cy="202" r="4" fill="#667875"/><text x="56" y="207" class="muted" font-size="13">Dashboard</text>
+  <circle cx="40" cy="247" r="4" fill="#667875"/><text x="56" y="252" class="muted" font-size="13">Session history</text>
+  <circle cx="40" cy="292" r="4" fill="#667875"/><text x="56" y="297" class="muted" font-size="13">Resume analyzer</text>
+  <circle cx="40" cy="337" r="4" fill="#667875"/><text x="56" y="342" class="muted" font-size="13">Profile</text>
+  <line x1="24" y1="876" x2="212" y2="876" class="line"/>
+  <circle cx="43" cy="912" r="16" fill="#31433d"/><text x="43" y="917" text-anchor="middle" fill="#d9e9dc" font-size="12" font-weight="700">A</text>
+  <text x="69" y="910" class="bright" font-size="12" font-weight="650">Alex Morgan</text>
+  <text x="69" y="928" class="quiet" font-size="10">Placement preparation</text>
+
+  <text x="278" y="48" fill="#baf36b" font-size="10" font-weight="700" letter-spacing="1.7">PRACTICE  /  SETUP</text>
+  <text x="278" y="91" class="bright" font-size="30" font-weight="700">Build your interview session</text>
+  <text x="278" y="119" class="muted" font-size="14">Choose a track and tune the round to your goals.</text>
+  <rect x="1216" y="44" width="154" height="40" rx="8" fill="#142125" stroke="#293a3d"/>
+  <path d="M1235 64h14m-14 0 5-5m-5 5 5 5" fill="none" stroke="#bdcbc6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1256" y="69" class="bright" font-size="12" font-weight="600">Back to dashboard</text>
+
+  <rect x="278" y="145" width="1092" height="3" rx="2" fill="#263638"/>
+  <rect x="278" y="145" width="364" height="3" rx="2" fill="url(#accent)"/>
+  <text x="278" y="171" class="quiet" font-size="10" font-weight="700" letter-spacing="1">STEP 01</text>
+  <text x="342" y="171" class="muted" font-size="11">Session details</text>
+  <text x="1279" y="171" class="quiet" font-size="10">1 OF 3</text>
+
+  <text x="278" y="220" class="bright" font-size="17" font-weight="700">Choose your track</text>
+  <text x="278" y="242" class="muted" font-size="12">Your selections shape the questions in this practice session.</text>
+
+  <text x="278" y="286" class="label">TARGET COMPANY</text>
+  <text x="278" y="305" class="quiet" font-size="11">Pick a company or practice a general track.</text>
+  <rect x="278" y="321" width="102" height="36" rx="7" fill="#25291f" stroke="#baf36b"/>
+  <text x="329" y="344" text-anchor="middle" fill="#e8f4d4" font-size="12" font-weight="700">Google</text>
+  <rect x="389" y="321" width="112" height="36" rx="7" class="chip"/><text x="445" y="344" text-anchor="middle" class="chiptext">Microsoft</text>
+  <rect x="510" y="321" width="99" height="36" rx="7" class="chip"/><text x="559" y="344" text-anchor="middle" class="chiptext">Amazon</text>
+  <rect x="618" y="321" width="84" height="36" rx="7" class="chip"/><text x="660" y="344" text-anchor="middle" class="chiptext">Meta</text>
+  <rect x="711" y="321" width="82" height="36" rx="7" class="chip"/><text x="752" y="344" text-anchor="middle" class="chiptext">Apple</text>
+  <rect x="278" y="366" width="70" height="36" rx="7" class="chip"/><text x="313" y="389" text-anchor="middle" class="chiptext">TCS</text>
+  <rect x="357" y="366" width="92" height="36" rx="7" class="chip"/><text x="403" y="389" text-anchor="middle" class="chiptext">Infosys</text>
+  <rect x="458" y="366" width="80" height="36" rx="7" class="chip"/><text x="498" y="389" text-anchor="middle" class="chiptext">Wipro</text>
+  <rect x="547" y="366" width="93" height="36" rx="7" class="chip"/><text x="593" y="389" text-anchor="middle" class="chiptext">Startup</text>
+  <line x1="278" y1="424" x2="950" y2="424" class="line"/>
+
+  <text x="278" y="455" class="label">INTERVIEW ROUND</text>
+  <text x="278" y="474" class="quiet" font-size="11">What would you like to work on?</text>
+  <rect x="278" y="490" width="104" height="36" rx="7" class="chip"/><text x="330" y="513" text-anchor="middle" class="chiptext">Aptitude</text>
+  <rect x="391" y="490" width="104" height="36" rx="7" fill="#25291f" stroke="#baf36b"/><text x="443" y="513" text-anchor="middle" fill="#e8f4d4" font-size="12" font-weight="700">Technical</text>
+  <rect x="504" y="490" width="146" height="36" rx="7" class="chip"/><text x="577" y="513" text-anchor="middle" class="chiptext">HR &amp; Behavioral</text>
+  <rect x="659" y="490" width="76" height="36" rx="7" class="chip"/><text x="697" y="513" text-anchor="middle" class="chiptext">DSA</text>
+  <rect x="744" y="490" width="126" height="36" rx="7" class="chip"/><text x="807" y="513" text-anchor="middle" class="chiptext">System Design</text>
+  <rect x="278" y="535" width="104" height="36" rx="7" class="chip"/><text x="330" y="558" text-anchor="middle" class="chiptext">Case Study</text>
+  <line x1="278" y1="592" x2="950" y2="592" class="line"/>
+
+  <text x="278" y="623" class="label">INDUSTRY</text>
+  <text x="278" y="642" class="quiet" font-size="11">Set a domain for more relevant scenarios.</text>
+  <rect x="278" y="658" width="116" height="36" rx="7" fill="#25291f" stroke="#baf36b"/><text x="336" y="681" text-anchor="middle" fill="#e8f4d4" font-size="12" font-weight="700">Technology</text>
+  <rect x="403" y="658" width="91" height="36" rx="7" class="chip"/><text x="448" y="681" text-anchor="middle" class="chiptext">Finance</text>
+  <rect x="503" y="658" width="104" height="36" rx="7" class="chip"/><text x="555" y="681" text-anchor="middle" class="chiptext">Healthcare</text>
+  <rect x="616" y="658" width="104" height="36" rx="7" class="chip"/><text x="668" y="681" text-anchor="middle" class="chiptext">Marketing</text>
+  <rect x="729" y="658" width="104" height="36" rx="7" class="chip"/><text x="781" y="681" text-anchor="middle" class="chiptext">Operations</text>
+  <rect x="278" y="703" width="120" height="36" rx="7" class="chip"/><text x="338" y="726" text-anchor="middle" class="chiptext">Data Science</text>
+  <line x1="278" y1="760" x2="950" y2="760" class="line"/>
+
+  <text x="278" y="791" class="label">DIFFICULTY</text>
+  <text x="278" y="810" class="quiet" font-size="11">You can change this before every session.</text>
+  <rect x="278" y="826" width="112" height="36" rx="7" class="chip"/><text x="334" y="849" text-anchor="middle" class="chiptext">Easy</text>
+  <rect x="399" y="826" width="112" height="36" rx="7" fill="#25291f" stroke="#baf36b"/><text x="455" y="849" text-anchor="middle" fill="#e8f4d4" font-size="12" font-weight="700">Medium</text>
+  <rect x="520" y="826" width="112" height="36" rx="7" class="chip"/><text x="576" y="849" text-anchor="middle" class="chiptext">Hard</text>
+
+  <rect x="990" y="214" width="350" height="632" rx="10" fill="#142125" stroke="#2b3d3d"/>
+  <text x="1018" y="253" fill="#baf36b" font-size="10" font-weight="700" letter-spacing="1.5">SESSION PREVIEW</text>
+  <text x="1018" y="283" class="bright" font-size="20" font-weight="700">Your interview</text>
+  <text x="1018" y="306" class="muted" font-size="12">A focused round, built around your choices.</text>
+  <line x1="1018" y1="328" x2="1312" y2="328" class="line"/>
+  <text x="1018" y="357" class="quiet" font-size="11">COMPANY</text><text x="1018" y="379" class="bright" font-size="14" font-weight="650">Google</text>
+  <line x1="1018" y1="398" x2="1312" y2="398" class="line"/>
+  <text x="1018" y="427" class="quiet" font-size="11">ROUND</text><text x="1018" y="449" class="bright" font-size="14" font-weight="650">Technical</text>
+  <line x1="1018" y1="468" x2="1312" y2="468" class="line"/>
+  <text x="1018" y="497" class="quiet" font-size="11">INDUSTRY</text><text x="1018" y="519" class="bright" font-size="14" font-weight="650">Technology</text>
+  <line x1="1018" y1="538" x2="1312" y2="538" class="line"/>
+  <text x="1018" y="567" class="quiet" font-size="11">DIFFICULTY</text><text x="1018" y="589" class="bright" font-size="14" font-weight="650">Medium</text>
+  <rect x="1018" y="618" width="8" height="8" rx="2" fill="#baf36b"/><text x="1036" y="627" class="muted" font-size="12">10 questions</text>
+  <rect x="1018" y="643" width="8" height="8" rx="2" fill="#74cbd0"/><text x="1036" y="652" class="muted" font-size="12">About 15 minutes</text>
+  <text x="1018" y="698" class="quiet" font-size="11">RESUME-BASED PRACTICE</text>
+  <text x="1018" y="720" class="muted" font-size="11">Have a resume? Add your skills to</text>
+  <text x="1018" y="737" class="muted" font-size="11">make questions more personal.</text>
+  <rect x="1018" y="761" width="294" height="38" rx="7" fill="#1c2c2d" stroke="#405052"/>
+  <text x="1165" y="785" text-anchor="middle" class="bright" font-size="12" font-weight="650">Use my resume</text>
+  <rect x="1018" y="811" width="294" height="43" rx="7" fill="url(#accent)"/>
+  <text x="1147" y="838" text-anchor="middle" fill="#17221b" font-size="13" font-weight="800">Continue</text>
+  <path d="M1200 832h13m-5-5 5 5-5 5" fill="none" stroke="#17221b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

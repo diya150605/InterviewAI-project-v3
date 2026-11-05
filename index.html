@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InterviewAI — Your Personal Interview Coach</title>
+<meta name="description" content="Camera-based AI mock interviews with anti-cheat monitoring, adaptive questions, resume-based prep and a full results dashboard.">
+<link rel="stylesheet" href="style.css">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="#top" class="logo"><span class="logo-mark">🧠</span>InterviewAI</a>
+    <div class="nav-links">
+      <a href="#how">How it works</a><a href="#features">Features</a><a href="#resume">Resume AI</a>
+      <a href="#companies">Companies</a><a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-actions">
+      <button class="btn btn-ghost" data-open-demo data-auth-mode="login">Log in</button>
+      <button class="btn btn-primary" data-open-demo data-demo-step="setup" data-auth-mode="signup">Register</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#how">How it works</a><a href="#features">Features</a><a href="#resume">Resume AI</a>
+    <a href="#companies">Companies</a><a href="#faq">FAQ</a>
+    <button class="btn btn-primary" data-open-demo data-demo-step="setup" data-auth-mode="signup">Register</button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">AI mock interview coach</div>
+      <h1>Interview practice<br>that won't let<br>you <span>fake it.</span></h1>
+      <p class="lead">Camera-based mock interviews, anti-cheat monitoring, adaptive questions, resume-based prep and a complete results dashboard — all in your browser.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" data-open-demo data-demo-step="setup" data-auth-mode="signup">Start mock interview →</button>
+        <a class="btn btn-ghost btn-lg" href="#report">See a sample report</a>
+      </div>
+      <div class="hero-note">Free to start · No credit card required</div>
+      <div class="hero-stats">
+        <div><b>24k+</b><span>Sessions run</span></div>
+        <div><b>81%</b><span>Avg. score lift</span></div>
+        <div><b>4.8/5</b><span>User rating</span></div>
+      </div>
+    </div>
+
+    <div class="dash">
+      <div class="dash-bar">
+        <span class="dash-dot r"></span><span class="dash-dot y"></span><span class="dash-dot g"></span>
+        <span class="dash-url">app.interviewai.com/dashboard</span>
+      </div>
+      <div class="dash-body">
+        <div class="dash-top">
+          <div><strong>Good morning, Arjun 👋</strong><small>Ready to practice today?</small></div>
+          <div class="dash-avatar">A</div>
+        </div>
+        <div class="dash-row">
+          <div class="dash-stat"><b>24</b><small>SESSIONS</small></div>
+          <div class="dash-stat"><b style="color:var(--green)">81%</b><small>AVG SCORE</small></div>
+          <div class="dash-stat"><b style="color:var(--blue)">91%</b><small>BEST</small></div>
+        </div>
+        <div class="dash-panel">
+          <div class="dash-panel-head"><b>Focus areas</b></div>
+          <div class="dash-focus-row"><div><b>System Design</b><small>Practice architecture diagrams</small></div><strong>62%</strong></div>
+          <div class="dash-focus-row"><div><b>Time Complexity</b><small>Review Big-O for sorting</small></div><strong>58%</strong></div>
+        </div>
+        <button class="dash-cta" data-open-demo data-demo-step="setup" data-auth-mode="signup">🎙 Start mock interview</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<!-- TRUST -->
+<section class="trust wrap">
+  <div><b>9</b><span>Target companies</span></div>
+  <div><b>5</b><span>Interview round types</span></div>
+  <div><b>6</b><span>Industries covered</span></div>
+  <div><b>3</b><span>Difficulty levels</span></div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section wrap" id="how">
+  <div class="section-head"><div class="eyebrow">How it works</div><h2>Four steps from setup to your full results panel.</h2></div>
+  <div class="cards four">
+    <article><i>01</i><h3>Set up your session</h3><p>Pick company, round, difficulty and industry, or use your resume.</p></article>
+    <article><i>02</i><h3>Camera check</h3><p>Confirm your face is visible and the session is ready to begin.</p></article>
+    <article><i>03</i><h3>Live adaptive interview</h3><p>Answer spoken questions on a timer with live monitoring.</p></article>
+    <article><i>04</i><h3>Full results panel</h3><p>Get scores, voice analysis and written AI feedback.</p></article>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section wrap" id="features">
+  <div class="section-head"><div class="eyebrow">What's inside</div><h2>Everything you need to practice seriously.</h2></div>
+  <div class="cards three">
+    <article><div class="feature-icon">📄</div><h3>Resume-based questions</h3><p>Extract skills and experience and turn them into tailored interview questions.</p></article>
+    <article><div class="feature-icon">🛡️</div><h3>Anti-cheat monitoring</h3><p>Track focus, face visibility and integrity flags during the session.</p></article>
+    <article><div class="feature-icon">〽️</div><h3>Voice & speech analysis</h3><p>Review filler words, speaking pace and silence gaps.</p></article>
+    <article><div class="feature-icon">🎯</div><h3>Category score breakdown</h3><p>Technical depth, communication, problem solving and confidence.</p></article>
+    <article><div class="feature-icon">🏆</div><h3>Streaks & badges</h3><p>Track consistency with achievements and practice milestones.</p></article>
+    <article><div class="feature-icon">🕘</div><h3>Session history</h3><p>Keep company, round, score, duration and integrity history together.</p></article>
+  </div>
+</section>
+
+<!-- COMPANIES / LIBRARY -->
+<section class="section wrap" id="companies">
+  <div class="section-head"><div class="eyebrow">Practice library</div><h2>Practice for the company and round you're actually facing.</h2></div>
+  <div class="library">
+    <h4>Target companies</h4>
+    <div class="chips"><span>Google</span><span>Microsoft</span><span>Amazon</span><span>Meta</span><span>Apple</span><span>TCS</span><span>Infosys</span><span>Wipro</span><span>Startup</span></div>
+    <h4>Interview rounds</h4>
+    <div class="chips"><span>Technical</span><span>HR & Behavioral</span><span>DSA</span><span>System Design</span><span>Case Study</span></div>
+    <h4>Industries</h4>
+    <div class="chips"><span>Technology</span><span>Finance</span><span>Healthcare</span><span>Marketing</span><span>Operations</span><span>Data Science</span></div>
+  </div>
+</section>
+
+<!-- RESUME ANALYZER -->
+<section class="section wrap" id="resume">
+  <div>
+    <div class="eyebrow">Resume analyzer</div>
+    <h2>Upload your CV. Get questions built from your actual experience.</h2>
+    <p>InterviewAI extracts skills, scores strengths and flags gaps worth studying.</p>
+    <button class="btn btn-ghost" data-open-demo data-demo-step="resume" data-auth-mode="signup">Try the resume analyzer</button>
+  </div>
+</section>
+
+<!-- SAMPLE REPORT -->
+<section class="section wrap split" id="report">
+  <div>
+    <div class="eyebrow">Sample readout</div>
+    <h2>Every session ends with a real breakdown, not a vibe.</h2>
+    <p>Example result from a Technical round at Google.</p>
+    <button class="btn btn-primary" data-open-demo data-demo-step="setup" data-auth-mode="signup">Start a free session</button>
+  </div>
+  <div class="panel report">
+    <div class="report-title">SESSION COMPLETE<br><b>Google · Technical</b></div>
+    <div class="ring"><strong>88</strong><small>OVERALL</small></div>
+    <div class="bars">
+      <p>Technical depth <b>90%</b></p><div><i style="width:90%"></i></div>
+      <p>Communication <b>85%</b></p><div><i style="width:85%"></i></div>
+      <p>Problem solving <b>88%</b></p><div><i style="width:88%"></i></div>
+      <p>Confidence <b>82%</b></p><div><i style="width:82%"></i></div>
+    </div>
+    <div class="feedback">✨ Strong explanation overall. Next time, mention partition tolerance and horizontal sharding strategies.</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section wrap" id="faq">
+  <div class="faq">
+    <div class="section-head"><div class="eyebrow">FAQ</div><h2>Before you start a session.</h2></div>
+    <div class="faq-item open"><button>Does it really use my camera? <b>+</b></button><p>Yes. The mock interview is designed as a camera-based face-to-face session.</p></div>
+    <div class="faq-item"><button>What happens if cheating is flagged? <b>+</b></button><p>Integrity events are logged against the session and shown with the result.</p></div>
+    <div class="faq-item"><button>Can I practice without uploading a resume? <b>+</b></button><p>Yes. Resume upload is optional.</p></div>
+    <div class="faq-item"><button>Which companies and rounds are covered? <b>+</b></button><p>Google, Microsoft, Amazon, Meta, Apple, TCS, Infosys, Wipro and Startup, across five round types.</p></div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section wrap">
+  <div class="final-cta">
+    <div class="eyebrow" style="justify-content:center">Ready when you are</div>
+    <h2>Your next interview shouldn't be the first time you've answered out loud.</h2>
+    <button class="btn btn-primary btn-lg" data-open-demo data-demo-step="setup" data-auth-mode="signup">Start mock interview →</button>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap footer">
+    <div>
+      <a class="logo" href="#top"><span class="logo-mark">🧠</span>InterviewAI</a>
+      <p>Your personal interview coach.</p>
+    </div>
+    <div>
+      <b>Product</b>
+      <a href="#how">How it works</a><a href="#features">Features</a><a href="#resume">Resume analyzer</a>
+    </div>
+    <div>
+      <b>Resources</b>
+      <a href="#faq">FAQ</a><a href="#companies">Interview guides</a>
+    </div>
+  </div>
+  <div class="copyright wrap">© 2026 InterviewAI. All rights reserved.</div>
+</footer>
+
+<!-- REAL DESKTOP APP PANEL (login + sidebar dashboard, not a phone-app simulation) -->
+<div class="demo-overlay hidden" id="demo">
+  <div class="demo-shell" id="demoShell">
+    <div class="demo-top">
+      <span class="logo"><span class="logo-mark">🧠</span>InterviewAI</span>
+      <button id="demoClose" aria-label="Close">×</button>
+    </div>
+    <div id="demoBody" class="demo-body"></div>
+  </div>
+</div>
+
+<script src="script.js?v=20260924-admin-login"></script>
+</body>
+</html>
+

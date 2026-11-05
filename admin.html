@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterviewAI Admin Portal</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="admin-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">IA</span><div><strong>InterviewAI</strong><small>Admin workspace</small></div></div>
+      <nav class="nav" aria-label="Admin navigation">
+        <button class="nav-item active" data-view="overview">⌂ <span>Overview</span></button>
+        <button class="nav-item" data-view="students">♙ <span>Students</span></button>
+        <button class="nav-item" data-view="companies">▣ <span>Companies</span></button>
+        <button class="nav-item" data-view="interviews">▤ <span>Interviews</span></button>
+        <button class="nav-item" data-view="analytics">◒ <span>Analytics</span></button>
+        <button class="nav-item" data-view="settings">⚙ <span>Settings</span></button>
+      </nav>
+      <button class="logout" id="logout">↪ <span>Log out</span></button>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div><span class="eyebrow">Control center</span><h1 id="pageTitle">Overview</h1><p id="pageSubtitle">A clear view of your interview platform.</p></div>
+        <div class="admin-user">
+          <button class="btn primary" id="refreshAdminData" type="button">↻ Refresh</button>
+          <div><strong id="adminName">Admin</strong><small>Administrator</small></div>
+          <span class="avatar">A</span>
+        </div>
+      </header>
+      <div id="content"></div>
+    </main>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
